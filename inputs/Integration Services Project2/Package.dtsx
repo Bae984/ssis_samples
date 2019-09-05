@@ -1,0 +1,16 @@
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts" DTS:refId="Package" DTS:CreationDate="8/30/2019 10:56:56 AM" DTS:CreationName="Microsoft.Package" DTS:CreatorComputerName="CNT-BEZHOU-626" DTS:CreatorName="FAREAST\t-bezhou" DTS:DTSID="{0C66E0C9-DCD7-4810-9321-564C40BA0449}" DTS:EnableConfig="True" DTS:ExecutableType="Microsoft.Package" DTS:LastModifiedProductVersion="15.0.1300.371" DTS:LocaleID="1033" DTS:ObjectName="Package" DTS:PackageType="5" DTS:VersionBuild="3" DTS:VersionGUID="{17193361-0C46-438F-9F16-49AB8609F9B1}">
+	<DTS:Property DTS:Name="PackageFormatVersion">8</DTS:Property>
+	<DTS:Configurations>
+		<DTS:Configuration DTS:ConfigurationString="d:\inputs\Integration Services Project1\Integration Services Project2\Integration Services Project2\conf.dtsConfig" DTS:ConfigurationType="1" DTS:CreationName="" DTS:DTSID="{7962F913-C027-4DF6-AE6F-627014C35B53}" DTS:ObjectName="Configuration 1" />
+		<DTS:Configuration DTS:ConfigurationString="d:\inputs\Integration Services Project1\Integration Services Project2\Integration Services Project2\x.dtsConfig" DTS:ConfigurationType="1" DTS:CreationName="" DTS:DTSID="{31A0B0FA-7531-4DA3-9DC5-EFF0186B2060}" DTS:ObjectName="Configuration 2" />
+	</DTS:Configurations>
+	<DTS:Variables />
+	<DTS:Executables>
+		<DTS:Executable DTS:refId="Package\Data Flow Task" DTS:CreationName="Microsoft.Pipeline" DTS:Description="Data Flow Task" DTS:DTSID="{E63A3613-1757-4DB0-B171-366F92397D48}" DTS:ExecutableType="Microsoft.Pipeline" DTS:LocaleID="-1" DTS:ObjectName="Data Flow Task" DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+			<DTS:Variables />
+			<DTS:ObjectData>
+				<pipeline version="1" />
+			</DTS:ObjectData>
+		</DTS:Executable>
+	</DTS:Executables>
+</DTS:Executable>
